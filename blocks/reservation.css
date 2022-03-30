@@ -1,0 +1,104 @@
+.reservation {
+    background-color: #D9E7FF;
+    background-image: url("../images/background_reservation.svg");
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.reservation__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.form {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation__form {
+    margin: 0 auto;
+    max-width: 385px;
+    max-height: 536px;
+    padding-bottom: 32px;
+}
+
+.form__fieldset {
+    padding-bottom: 32px;
+    border: none;
+}
+
+.form__label {
+    display: block;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 8px;
+}
+
+.form__input {
+    border: 1px solid #cfcfcf;
+    box-sizing: border-box;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #838383;
+    min-width: 385px;
+    min-height: 60px;
+    padding-left: 20px;
+    border-radius: 4px;
+}
+
+.form__button {
+    min-width: 385px;
+    min-height: 60px;
+    background-color: #2F80ED;
+    border: none;
+    border-radius: 4px;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 100%;
+}
+
+.form__button:hover {
+    opacity: 70%;
+    transition: 0.8s;
+}
+
+.form__checkboxes {
+    display: flex;
+    border: none;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.form__checkbox {
+    border-radius: 2px;
+    transform: scale(1.5);
+    margin-right: 10px;
+  }
+
+.form__label {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px; 
+}
+
+  

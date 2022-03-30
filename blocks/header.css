@@ -1,0 +1,123 @@
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;    
+} 
+
+.header {
+    background-color: #FFFFFF;
+    background-image: url("../images/background_header.svg") ;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    min-height: 720px;
+    max-height: 750px;
+    position: relative; 
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-bottom: 80px;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    list-style: none;
+    margin-right: 80px;
+}
+.nav__link {
+    color: #000000;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    transition: color .5s;
+}
+.nav__link:hover {
+    color: #2F80ED;
+}
+
+.header__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    margin-top: 0;
+    margin-left: 80px;
+    margin-bottom: 28px;
+    max-width: 729px;
+    overflow: hidden;
+}
+
+.header__accent {
+    font-family: "Noto Serif", 'Times New Roman', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2F80ED;
+}
+
+.header__description {
+    font-family: "Noto Serif", 'Times New Roman', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 683px;
+    margin-left: 80px;
+}
+
+.header__paragraphs {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 80px;
+    margin-bottom: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__paragraph {
+    position: absolute;
+    bottom: 25px;
+    line-height: 5px;
+}
+
+.header__address {
+    position: absolute;
+    left: 980px;
+    bottom: 15px;
+    width: 345px;
+    margin: 0;
+}
+
+.header__image {
+    position: absolute;
+    right: 5px;
+    top: 125px;
+}
+
+.coffee__image {
+    width: 646px;
+    right: 568px;  
+}
+
+
