@@ -111,14 +111,11 @@
 }
 
 .header__image {
+    width: 646px;
+    right: 568px; 
     position: absolute;
     right: 5px;
-    top: 125px;
-}
-
-.coffee__image {
-    width: 646px;
-    right: 568px;  
+    top: 125px; 
 }
 
 
