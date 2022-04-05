@@ -4,8 +4,7 @@
     margin: 0 auto;
     font-family: "Inter", Arial, sans-serif;
     font-size: 16px;
-    line-height: 20px;
-    overflow-x: hidden;  
+    line-height: 20px;  
 } 
 
 .header {
@@ -16,7 +15,7 @@
     padding-bottom: 40px;
     min-height: 720px;
     max-height: 750px;
-    position: relative; 
+    position: relative;
 }
 
 .nav {
@@ -98,17 +97,11 @@
 }
 
 .header__paragraph {
-    position: absolute;
-    bottom: 25px;
-    line-height: 5px;
+    
 }
 
 .header__address {
-    position: absolute;
-    left: 980px;
-    bottom: 15px;
-    width: 345px;
-    margin: 0;
+
 }
 
 .header__image {
