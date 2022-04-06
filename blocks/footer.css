@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-.footer__contents {
+.footer__content {
     display: flex;
+    flex-direction: column;
     margin-bottom: 108px; 
 }
 
@@ -32,6 +33,7 @@
 .footer__list {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .footer__social-link {

@@ -1,58 +1,16 @@
-.page {
-    min-width: 1100px;
-    max-width: 1600px;
-    margin: 0 auto;
-    font-family: "Inter", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 20px;  
-} 
-
 .header {
     background-color: #FFFFFF;
     background-image: url("../images/background_header.svg");
     background-position: center;
     padding-top: 30px;
     padding-bottom: 40px;
-    min-height: 750px;
+    min-height: 720px;
+    max-height: 800px;
     position: relative;
     display: flex;
     flex-direction: column;
     z-index: 0;
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.logo {
-    margin-left: 30px;
-    margin-bottom: 80px;
-}
-
-.nav__links {
-    display: flex;
-    align-items: center;
-    column-gap: 20px;
-    list-style: none;
-    margin: 0 80px 0 0;
-    padding: 0;
-}
-
-.nav__link {
-    color: #000000;
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    text-decoration: none;
-    transition: color .5s;
-}
-
-.nav__link:hover {
-    color: #2F80ED;
+    background-size: cover;
 }
 
 .header__title {
@@ -68,8 +26,8 @@
     overflow: hidden;
 }
 
-.header__accent {
-    font-family: "Noto Serif", 'Times New Roman', sans-serif;
+.header__span-accent {
+    font-family: "Noto Serif", 'Times New Roman', serif;
     font-style: italic;
     font-weight: normal;
     font-size: 60px;
@@ -79,13 +37,13 @@
 }
 
 .header__description {
-    font-family: "Noto Serif", 'Times New Roman', sans-serif;
+    font-family: "Noto Serif", 'Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
     max-width: 683px;
-    margin: 20px 0 0 80px;
+    margin: 0 0 0 80px;
 }
 
 .header__paragraphs {
@@ -96,20 +54,22 @@
     align-items: flex-end;
 }
 
-.header__paragraph {
+.header__hours {
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    margin: 0;
 }
 
 .header__address {
-    margin-bottom: 0;
-}
-
-.header__weekend {
-    margin-bottom: 0;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
 }
 
 .header__image {
