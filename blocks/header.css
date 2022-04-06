@@ -39,6 +39,7 @@
     margin: 0 80px 0 0;
     padding: 0;
 }
+
 .nav__link {
     color: #000000;
     font-family: "Inter", Arial, sans-serif;
@@ -49,6 +50,7 @@
     text-decoration: none;
     transition: color .5s;
 }
+
 .nav__link:hover {
     color: #2F80ED;
 }
@@ -114,6 +116,6 @@
     position: absolute;
     width: 646px;
     right: 5px;
-    top: 125px; 
+    top: 125px;
     z-index: -1;
 }
