@@ -68,7 +68,6 @@
 .form__checkboxes {
     display: flex;
     border: none;
-    align-items: baseline;
     justify-content: center;
     align-items: flex-end;
     padding: 0;
