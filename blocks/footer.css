@@ -6,7 +6,6 @@
 
 .footer__content {
     display: flex;
-    flex-direction: column;
     margin-bottom: 108px; 
 }
 
@@ -15,9 +14,11 @@
     height: 32px;
 }
 
-.footer__content_social {
+.footer__social {
     color: #FFFFFF;
     margin-left: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__social-heading {

@@ -8,8 +8,7 @@
 .reservation__form {
     margin: 0 auto;
     max-width: 385px;
-    max-height: 536px;
-    padding-bottom: 32px;
+    min-height: 536px;
 }
 
 .form__fieldset {
@@ -26,6 +25,15 @@
     font-size: 16px;
     line-height: 20px;
     padding: 32px 0 0 0;
+    margin-bottom: 8px;
+}
+
+.form__label:first-of-type {
+    padding-top: 0;
+}
+
+.form__label_input_validation {
+    margin: 0;
 }
 
 .form__input {
@@ -57,7 +65,7 @@
     line-height: 20px;
     color: #FFFFFF;
     opacity: 100%;
-    margin-top: 32px;
+    margin: 32px 0 32px 0;
     transition: 0.8s;
 }
 

@@ -11,6 +11,7 @@
     flex-direction: column;
     z-index: 0;
     background-size: cover;
+    height: 100vh;
 }
 
 .header__title {
@@ -54,16 +55,7 @@
     align-items: flex-end;
 }
 
-.header__hours {
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    margin: 0;
-}
-
-.header__address {
+.header__paragraph {
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;

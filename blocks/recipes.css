@@ -31,13 +31,8 @@
 
 .recipes__videos {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
     column-gap: 40px;
-    row-gap: 24px;
-    margin: auto;
-    width: 920px;
     height: 331px;
 }
 
@@ -51,6 +46,7 @@
 .recipes__video-captions {
     display:flex;
     justify-content: space-between;
+    margin: 24px 0 0 0;
 }
 
 .recipes__video-caption {
@@ -59,4 +55,5 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
+    margin: 0;
 }
